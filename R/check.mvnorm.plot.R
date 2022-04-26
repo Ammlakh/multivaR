@@ -1,3 +1,15 @@
+#' Checks for multivariate normality in data
+#'
+#' @param data A dataframe with multiple quantitative variables
+#'
+#' @return A qq-plot for multivariate normality
+#'
+#' @examples
+#' check.mvnorm.plot(iris[,1:4])
+#'
+#' @export
+
+
 check.mvnorm.plot <- function(data) {
   data <- as.matrix(data)
   d2 <- 1:nrow(data)
