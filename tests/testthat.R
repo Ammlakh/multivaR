@@ -1,4 +1,4 @@
 library(testthat)
-library(stat431package)
+library(multivaR)
 
-test_check("stat431package")
+test_check("multivaR")
