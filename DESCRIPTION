@@ -1,10 +1,16 @@
 Package: multivaR
-Title: What the Package Does (One Line, Title Case)
+Title: Multivariate Analysis in R
 Version: 0.0.0.9000
 Authors@R: 
     person("Anmol", "Lakhotia", , "mrinal.lakhotiaa@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Michael", "Knauss", , "mknauss@calpoly.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Dr Jimmy", "Doi", , "jdoi@calpoly.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package allows you to do many different types of test relating to multivate anaylsis in R. 
+These functions were written for use in STAT 419 with Dr. Doi and this package would help with ease of use.
+There also iuncludes a fucntion to plot power curves for significance tests.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
